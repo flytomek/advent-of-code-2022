@@ -12,11 +12,9 @@ for($i=0; $i < count($buff); $i++) {
             $buff[$i], $buff[$i+1], $buff[$i+2], $buff[$i+3],
         ])) === 4
     ) {
-        $result = $i+3;
+        $result = $i+4;
         break;
     }
 }
-
-$result++;
 
 echo sprintf( "Answer: %s\n", $result);
